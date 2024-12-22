@@ -929,3 +929,16 @@ initUserStorage(dataRoot)
     .then(verifySecuritySettings)
     .then(preSetupTasks)
     .finally(startServer);
+
+
+// Self-ping every 10 seconds to keep the server alive
+if (process.env.RENDER_EXTERNAL_URL) {
+    setInterval(async () => {
+        try {
+            await fetch(`${process.env.RENDER_EXTERNAL_URL}/img/claude.svg`);
+            console.debug('Self-ping successful');
+        } catch (error) {
+            console.error('Self-ping failed:', error);
+        }
+    }, 10000);
+}
