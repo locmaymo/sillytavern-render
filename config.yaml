@@ -1,5 +1,4 @@
 dataRoot: ./data
-cardsCacheCapacity: 100
 listen: true
 protocol:
   ipv4: true
@@ -29,19 +28,12 @@ enableDiscreetLogin: false
 autheliaAuth: false
 perUserBasicAuth: false
 sessionTimeout: 86400
-cookieSecret: zEpSS9QPDr5cVuLa9kc+6B2dTtMdVCmQlHOlM+fpraZu13bOKWlaEZaUQgFuPAJy95KGh9hRceXTOqhHWKkuHA==
 disableCsrfProtection: false
 securityOverride: true
 autorun: false
 avoidLocalhost: false
-disableThumbnails: false
-thumbnailsQuality: 95
-avatarThumbnailsPng: false
 allowKeysExposure: false
 skipContentCheck: false
-disableChatBackup: false
-numberOfBackups: 50
-chatBackupThrottleInterval: 10000
 whitelistImportDomains:
   - localhost
   - cdn.discordapp.com
@@ -49,17 +41,10 @@ whitelistImportDomains:
   - raw.githubusercontent.com
   - proxyai.me
   - render.com
+  - render.com
 requestOverrides: []
-enableExtensions: true
-enableExtensionsAutoUpdate: true
 enableDownloadableTokenizers: true
-extras:
-  disableAutoDownload: false
-  classificationModel: Cohee/distilbert-base-uncased-go-emotions-onnx
-  captioningModel: Xenova/vit-gpt2-image-captioning
-  embeddingModel: Cohee/jina-embeddings-v2-base-en
-  speechToTextModel: Xenova/whisper-small
-  textToSpeechModel: Xenova/speecht5_tts
+extras: {}
 promptPlaceholder: "[Start a new chat]"
 openai:
   randomizeUserId: false
@@ -70,7 +55,55 @@ mistral:
   enablePrefix: false
 ollama:
   keepAlive: -1
+  batchSize: -1
 claude:
   enableSystemPromptCache: false
   cachingAtDepth: -1
 enableServerPlugins: false
+thumbnails:
+  enabled: true
+  quality: 95
+  format: jpg
+  dimensions:
+    bg:
+      - 160
+      - 90
+    avatar:
+      - 96
+      - 144
+backups:
+  chat:
+    enabled: true
+    throttleInterval: 10000
+    checkIntegrity: true
+    maxTotalBackups: -1
+  common:
+    numberOfBackups: 50
+extensions:
+  enabled: true
+  autoUpdate: true
+  models:
+    autoDownload: true
+    classification: Cohee/distilbert-base-uncased-go-emotions-onnx
+    captioning: Xenova/vit-gpt2-image-captioning
+    embedding: Cohee/jina-embeddings-v2-base-en
+    speechToText: Xenova/whisper-small
+    textToSpeech: Xenova/speecht5_tts
+performance:
+  memoryCacheCapacity: 100mb
+  lazyLoadCharacters: false
+  useDiskCache: true
+listenAddress:
+  ipv4: 0.0.0.0
+  ipv6: "[::]"
+ssl:
+  enabled: false
+  certPath: ./certs/cert.pem
+  keyPath: ./certs/privkey.pem
+whitelistDockerHosts: true
+logging:
+  enableAccessLog: true
+  minLogLevel: 0
+rateLimiting:
+  preferRealIpHeader: false
+enableServerPluginsAutoUpdate: true

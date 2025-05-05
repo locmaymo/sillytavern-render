@@ -7,26 +7,7 @@ themes/Azure.json
 backgrounds/__transparent.png
 backgrounds/_black.jpg
 backgrounds/_white.jpg
-backgrounds/bedroom clean.jpg
-backgrounds/bedroom cyberpunk.jpg
-backgrounds/bedroom red.jpg
-backgrounds/bedroom tatami.jpg
-backgrounds/cityscape medieval market.jpg
-backgrounds/cityscape medieval night.jpg
-backgrounds/cityscape postapoc.jpg
-backgrounds/forest treehouse fireworks air baloons (by kallmeflocc).jpg
-backgrounds/japan classroom side.jpg
-backgrounds/japan classroom.jpg
-backgrounds/japan path cherry blossom.jpg
-backgrounds/japan university.jpg
-backgrounds/landscape autumn great tree.jpg
-backgrounds/landscape beach day.png
-backgrounds/landscape beach night.jpg
-backgrounds/landscape mountain lake.jpg
-backgrounds/landscape postapoc.jpg
-backgrounds/landscape winter lake house.jpg
-backgrounds/royal.jpg
-backgrounds/tavern day.jpg
+backgrounds/luo-tianyi-on-a-swing-vocaloid.gif
 default_Seraphina.png
 Seraphina
 Eldoria.json
@@ -120,6 +101,7 @@ presets/textgen/Universal-Super-Creative.json
 presets/textgen/Yara.json
 presets/textgen/simple-proxy-for-tavern.json
 presets/openai/Default.json
+presets/openai/SmileyTatsu-2.3.json
 presets/context/Adventure.json
 presets/context/Alpaca-Single-Turn.json
 presets/context/Alpaca.json
@@ -139,6 +121,7 @@ presets/context/Synthia.json
 presets/context/simple-proxy-for-tavern.json
 presets/context/Command R.json
 presets/context/Llama 3 Instruct.json
+presets/context/Llama 4 Instruct.json
 presets/context/Phi.json
 presets/instruct/Adventure.json
 presets/instruct/Alpaca-Single-Turn.json
@@ -164,9 +147,9 @@ presets/instruct/WizardLM.json
 presets/instruct/simple-proxy-for-tavern.json
 presets/instruct/Command R.json
 presets/instruct/Llama 3 Instruct.json
+presets/instruct/Llama 4 Instruct.json
 presets/instruct/Phi.json
 presets/moving-ui/Default.json
-presets/moving-ui/Black Magic Time.json
 presets/quick-replies/Default.json
 presets/instruct/Llama-3-Instruct-Names.json
 presets/instruct/ChatML-Names.json
@@ -194,3 +177,7 @@ presets/instruct/Mistral V3-Tekken.json
 presets/context/Mistral V3-Tekken.json
 presets/instruct/Mistral V7.json
 presets/context/Mistral V7.json
+presets/instruct/DeepSeek-V2.5.json
+presets/context/DeepSeek-V2.5.json
+presets/reasoning/DeepSeek.json
+presets/reasoning/Blank.json

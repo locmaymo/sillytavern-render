@@ -36,83 +36,7 @@
         "type": "background"
     },
     {
-        "filename": "backgrounds/bedroom clean.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/bedroom cyberpunk.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/bedroom red.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/bedroom tatami.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/cityscape medieval market.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/cityscape medieval night.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/cityscape postapoc.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/forest treehouse fireworks air baloons (by kallmeflocc).jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/japan classroom side.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/japan classroom.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/japan path cherry blossom.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/japan university.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/landscape autumn great tree.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/landscape beach day.png",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/landscape beach night.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/landscape mountain lake.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/landscape postapoc.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/landscape winter lake house.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/royal.jpg",
-        "type": "background"
-    },
-    {
-        "filename": "backgrounds/tavern day.jpg",
+        "filename": "backgrounds/luo-tianyi-on-a-swing-vocaloid.gif",
         "type": "background"
     },
     {
@@ -485,6 +409,10 @@
     },
     {
         "filename": "presets/openai/Default.json",
+        "type": "openai_preset"
+    },
+    {
+        "filename": "presets/openai/SmileyTatsu-2.3.json",
         "type": "openai_preset"
     },
     {
